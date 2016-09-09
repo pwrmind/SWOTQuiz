@@ -59,6 +59,7 @@ var Question = React.createClass({
                 </div>
                 <div className="col-sm-2">
                     <select className="form-control" id="sel1">
+                        <option disabled selected value> -- Выберите -- </option>
                         {responseOptions}
                     </select>
                 </div>
